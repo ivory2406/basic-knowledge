@@ -24,8 +24,8 @@ ssl._create_default_https_context = ssl._create_unverified_context
 # 配置
 # ====================================================================
 
-# 论文下载目录
-PAPER_DIR = Path(__file__).parent / "papers"
+# 论文下载目录（使用上级的 papers 目录，多个 demo 共享）
+PAPER_DIR = Path(__file__).parent.parent / "papers"
 PAPER_DIR.mkdir(exist_ok=True)
 
 # 论文元数据索引文件

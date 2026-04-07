@@ -9,6 +9,11 @@ RoundRobinGroupChat 示例 —— 反思模式 (Reflection Pattern)
 """
 
 import asyncio
+import sys
+from pathlib import Path
+
+# 将上级目录加入 sys.path，以便引用共享模块
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from autogen_agentchat.agents import AssistantAgent
 from autogen_agentchat.conditions import TextMentionTermination, MaxMessageTermination

@@ -1,0 +1,17 @@
+{
+  "plan_id": "opt_task_000",
+  "source_eval_id": "task_000",
+  "actions": [
+    {
+      "target": "PlanningAgent.system_message",
+      "action_type": "patch_prompt",
+      "description": "增加结构化报告格式要求，提升任务完成度",
+      "before": "原始 system_message（无格式要求）",
+      "after": "追加【报告格式要求】段落",
+      "expected_impact": "预期 task_completion +0.1~0.2"
+    }
+  ],
+  "config_diff_keys": [
+    "planning_system_message"
+  ]
+}

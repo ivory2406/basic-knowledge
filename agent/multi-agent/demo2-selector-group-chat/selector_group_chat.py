@@ -11,7 +11,12 @@ SelectorGroupChat 会使用 LLM 动态选择下一个最合适的 Agent 发言�
 """
 
 import asyncio
+import sys
+from pathlib import Path
 from typing import Sequence
+
+# 将上级目录加入 sys.path，以便引用共享模块
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from autogen_agentchat.agents import AssistantAgent
 from autogen_agentchat.conditions import TextMentionTermination, MaxMessageTermination
