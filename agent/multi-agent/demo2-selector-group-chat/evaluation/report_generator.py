@@ -53,6 +53,28 @@ class ReportGenerator:
         lines.append(f"```")
         lines.append("")
 
+        # 综合评分计算公式
+        dims = eval_result.get("dimensions", [])
+        default_weights = {
+            "task_completion": 0.30,
+            "efficiency": 0.20,
+            "collaboration": 0.20,
+            "tool_effectiveness": 0.15,
+            "output_quality": 0.15,
+        }
+        if dims:
+            lines.append("**加权计算公式：**")
+            lines.append("")
+            formula_parts = []
+            for dim in dims:
+                d_name = dim["dimension"]
+                d_score = dim.get("score", 0)
+                w = default_weights.get(d_name, 0)
+                short_name = self.DIMENSION_NAMES.get(d_name, d_name).split(" ", 1)[-1]
+                formula_parts.append(f"{short_name}({d_score:.1%}) × {w:.0%}")
+            lines.append(f"> {' + '.join(formula_parts)} = **{overall:.1%}**")
+            lines.append("")
+
         # 维度概览表
         lines.append("## 📊 各维度评分")
         lines.append("")
@@ -84,6 +106,12 @@ class ReportGenerator:
                 for sub_name, sub_val in sub_scores.items():
                     sub_em = self.SCORE_EMOJI[self._score_level(sub_val)]
                     lines.append(f"- {sub_em} `{sub_name}`: {sub_val:.2f}")
+                lines.append("")
+                # 得分计算公式
+                n = len(sub_scores)
+                parts = " + ".join(f"{v:.2f}" for v in sub_scores.values())
+                lines.append(f"**得分计算：** ({parts}) / {n} = **{score:.1%}**")
+                lines.append(f"> 维度得分 = 各子项算术平均值，每个子项满分 1.0")
             lines.append("")
 
         # 问题列表

@@ -125,6 +125,7 @@ class AgentEvaluator:
         score.score = sum(sub.values()) / max(len(sub), 1)
         score.details = f"正常终止={sub.get('normal_termination', 0):.1f}, " \
                         f"结构化输出={sub.get('structured_output', 0):.1f}, " \
+                        f"结论总结={sub.get('has_conclusion', 0):.1f}, " \
                         f"话题覆盖={sub.get('topic_coverage', 0):.1f}"
         return score
 
