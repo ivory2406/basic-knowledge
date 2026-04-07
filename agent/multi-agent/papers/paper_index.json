@@ -1,0 +1,1249 @@
+{
+  "2506.02550v2": {
+    "arxiv_id": "2506.02550v2",
+    "title": "Technical Report for Ego4D Long-Term Action Anticipation Challenge 2025",
+    "authors": "Qiaohui Chu, Haoyu Zhang, Yisen Feng, Meng Liu, Weili Guan",
+    "published": "2025-06-03",
+    "abstract": "In this report, we present a novel three-stage framework developed for the Ego4D Long-Term Action Anticipation (LTA) task. Inspired by recent advances in foundation models, our method consists of three stages: feature extraction, action recognition, and long-term action anticipation. First, visual features are extracted using a high-performance visual encoder. The features are then fed into a Transformer to predict verbs and nouns, with a verb-noun co-occurrence matrix incorporated to enhance re",
+    "pdf_url": "https://arxiv.org/pdf/2506.02550v2",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  "2502.00592v2": {
+    "arxiv_id": "2502.00592v2",
+    "title": "M+: Extending MemoryLLM with Scalable Long-Term Memory",
+    "authors": "Yu Wang, Dmitry Krotov, Yuanzhe Hu, Yifan Gao, Wangchunshu Zhou",
+    "published": "2025-02-01",
+    "abstract": "Equipping large language models (LLMs) with latent-space memory has attracted increasing attention as they can extend the context window of existing language models. However, retaining information from the distant past remains a challenge. For example, MemoryLLM (Wang et al., 2024a), as a representative work with latent-space memory, compresses past information into hidden states across all layers, forming a memory pool of 1B parameters. While effective for sequence lengths up to 16k tokens, it ",
+    "pdf_url": "https://arxiv.org/pdf/2502.00592v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2207.13219v4": {
+    "arxiv_id": "2207.13219v4",
+    "title": "Dalorex: A Data-Local Program Execution and Architecture for Memory-bound Applications",
+    "authors": "Marcelo Orenes-Vera, Esin Tureci, David Wentzlaff, Margaret Martonosi",
+    "published": "2022-07-26",
+    "abstract": "Applications with low data reuse and frequent irregular memory accesses, such as graph or sparse linear algebra workloads, fail to scale well due to memory bottlenecks and poor core utilization. While prior work with prefetching, decoupling, or pipelining can mitigate memory latency and improve core utilization, memory bottlenecks persist due to limited off-chip bandwidth. Approaches doing processing in-memory (PIM) with Hybrid Memory Cube (HMC) overcome bandwidth limitations but fail to achieve",
+    "pdf_url": "https://arxiv.org/pdf/2207.13219v4",
+    "categories": [
+      "cs.AR",
+      "cs.DC"
+    ]
+  },
+  "2506.03710v1": {
+    "arxiv_id": "2506.03710v1",
+    "title": "OSGNet @ Ego4D Episodic Memory Challenge 2025",
+    "authors": "Yisen Feng, Haoyu Zhang, Qiaohui Chu, Meng Liu, Weili Guan",
+    "published": "2025-06-04",
+    "abstract": "In this report, we present our champion solutions for the three egocentric video localization tracks of the Ego4D Episodic Memory Challenge at CVPR 2025. All tracks require precise localization of the interval within an untrimmed egocentric video. Previous unified video localization approaches often rely on late fusion strategies, which tend to yield suboptimal results. To address this, we adopt an early fusion-based video localization model to tackle all three tasks, aiming to enhance localizat",
+    "pdf_url": "https://arxiv.org/pdf/2506.03710v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  "2509.02969v1": {
+    "arxiv_id": "2509.02969v1",
+    "title": "VQualA 2025 Challenge on Engagement Prediction for Short Videos: Methods and Results",
+    "authors": "Dasong Li, Sizhuo Ma, Hang Hua, Wenjie Li, Jian Wang",
+    "published": "2025-09-03",
+    "abstract": "This paper presents an overview of the VQualA 2025 Challenge on Engagement Prediction for Short Videos, held in conjunction with ICCV 2025. The challenge focuses on understanding and modeling the popularity of user-generated content (UGC) short videos on social media platforms. To support this goal, the challenge uses a new short-form UGC dataset featuring engagement metrics derived from real-world user interactions. This objective of the Challenge is to promote robust modeling strategies that c",
+    "pdf_url": "https://arxiv.org/pdf/2509.02969v1",
+    "categories": [
+      "cs.CV",
+      "cs.MM",
+      "cs.SI"
+    ]
+  },
+  "2412.20486v2": {
+    "arxiv_id": "2412.20486v2",
+    "title": "LSQCA: Resource-Efficient Load/Store Architecture for Limited-Scale Fault-Tolerant Quantum Computing",
+    "authors": "Takumi Kobori, Yasunari Suzuki, Yosuke Ueno, Teruo Tanimoto, Synge Todo",
+    "published": "2024-12-29",
+    "abstract": "Current fault-tolerant quantum computer (FTQC) architectures utilize several encoding techniques to enable reliable logical operations with restricted qubit connectivity. However, such logical operations demand additional memory overhead to ensure fault tolerance. Since the main obstacle to practical quantum computing is the limited qubit count, our primary mission is to design floorplans that can reduce memory overhead without compromising computational capability. Despite extensive efforts to ",
+    "pdf_url": "https://arxiv.org/pdf/2412.20486v2",
+    "categories": [
+      "quant-ph",
+      "cs.AR"
+    ]
+  },
+  "1304.1836v2": {
+    "arxiv_id": "1304.1836v2",
+    "title": "A Simulation and Modeling of Access Points with Definition Language",
+    "authors": "Tairen Sun",
+    "published": "2013-04-06",
+    "abstract": "This submission has been withdrawn by arXiv administrators because it contains fictitious content and was submitted under a pseudonym, which is against arXiv policy.",
+    "pdf_url": "https://arxiv.org/pdf/1304.1836v2",
+    "categories": [
+      "cs.OH"
+    ]
+  },
+  "2602.00398v1": {
+    "arxiv_id": "2602.00398v1",
+    "title": "MemoryLLM: Plug-n-Play Interpretable Feed-Forward Memory for Transformers",
+    "authors": "Ajay Jaiswal, Lauren Hannah, Han-Byul Kim, Duc Hoang, Arnav Kundu",
+    "published": "2026-01-30",
+    "abstract": "Understanding how transformer components operate in LLMs is important, as it is at the core of recent technological advances in artificial intelligence. In this work, we revisit the challenges associated with interpretability of feed-forward modules (FFNs) and propose MemoryLLM, which aims to decouple FFNs from self-attention and enables us to study the decoupled FFNs as context-free token-wise neural retrieval memory. In detail, we investigate how input tokens access memory locations within FFN",
+    "pdf_url": "https://arxiv.org/pdf/2602.00398v1",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  "2512.10169v1": {
+    "arxiv_id": "2512.10169v1",
+    "title": "The 2025 Foundation Model Transparency Index",
+    "authors": "Alexander Wan, Kevin Klyman, Sayash Kapoor, Nestor Maslej, Shayne Longpre",
+    "published": "2025-12-11",
+    "abstract": "Foundation model developers are among the world's most important companies. As these companies become increasingly consequential, how do their transparency practices evolve? The 2025 Foundation Model Transparency Index is the third edition of an annual effort to characterize and quantify the transparency of foundation model developers. The 2025 FMTI introduces new indicators related to data acquisition, usage data, and monitoring and evaluates companies like Alibaba, DeepSeek, and xAI for the fi",
+    "pdf_url": "https://arxiv.org/pdf/2512.10169v1",
+    "categories": [
+      "cs.AI",
+      "cs.CY",
+      "cs.LG"
+    ]
+  },
+  "1005.0280v6": {
+    "arxiv_id": "1005.0280v6",
+    "title": "Superconductivity as a consequence of an ordering of the electron gas zero-point oscillations",
+    "authors": "Boris V. Vasiliev",
+    "published": "2010-05-03",
+    "abstract": "This paper has been administratively withdrawn by arXiv, duplicate of arXiv:1008.2691.",
+    "pdf_url": "https://arxiv.org/pdf/1005.0280v6",
+    "categories": [
+      "physics.gen-ph"
+    ]
+  },
+  "2411.05227v2": {
+    "arxiv_id": "2411.05227v2",
+    "title": "CHATTER: A Character Attribution Dataset for Narrative Understanding",
+    "authors": "Sabyasachee Baruah, Shrikanth Narayanan",
+    "published": "2024-11-07",
+    "abstract": "Computational narrative understanding studies the identification, description, and interaction of the elements of a narrative: characters, attributes, events, and relations. Narrative research has given considerable attention to defining and classifying character types. However, these character-type taxonomies do not generalize well because they are small, too simple, or specific to a domain. We require robust and reliable benchmarks to test whether narrative models truly understand the nuances ",
+    "pdf_url": "https://arxiv.org/pdf/2411.05227v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2410.05252v1": {
+    "arxiv_id": "2410.05252v1",
+    "title": "Causal Micro-Narratives",
+    "authors": "Mourad Heddaya, Qingcheng Zeng, Chenhao Tan, Rob Voigt, Alexander Zentefis",
+    "published": "2024-10-07",
+    "abstract": "We present a novel approach to classify causal micro-narratives from text. These narratives are sentence-level explanations of the cause(s) and/or effect(s) of a target subject. The approach requires only a subject-specific ontology of causes and effects, and we demonstrate it with an application to inflation narratives. Using a human-annotated dataset spanning historical and contemporary US news articles for training, we evaluate several large language models (LLMs) on this multi-label classifi",
+    "pdf_url": "https://arxiv.org/pdf/2410.05252v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR",
+      "cs.LG"
+    ]
+  },
+  "2603.26449v1": {
+    "arxiv_id": "2603.26449v1",
+    "title": "ClimateCheck 2026: Scientific Fact-Checking and Disinformation Narrative Classification of Climate-related Claims",
+    "authors": "Raia Abu Ahmad, Max Upravitelev, Aida Usmanova, Veronika Solopova, Georg Rehm",
+    "published": "2026-03-27",
+    "abstract": "Automatically verifying climate-related claims against scientific literature is a challenging task, complicated by the specialised nature of scholarly evidence and the diversity of rhetorical strategies underlying climate disinformation. ClimateCheck 2026 is the second iteration of a shared task addressing this challenge, expanding on the 2025 edition with tripled training data and a new disinformation narrative classification task. Running from January to February 2026 on the CodaBench platform",
+    "pdf_url": "https://arxiv.org/pdf/2603.26449v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2601.05977v3": {
+    "arxiv_id": "2601.05977v3",
+    "title": "Comment on Nuclear Fusion 66, 016012 (2026) and arXiv:2508.03561 by Richard Fitzpatrick, A Simple Model of Current Ramp-Up and Ramp-Down in Tokamaks",
+    "authors": "Allen H Boozer",
+    "published": "2026-01-09",
+    "abstract": "The article Nuclear Fusion \\textbf{66}, 016012 (2026) by Richard Fitzpatrick is based on fundamental errors in the physics of the evolution of the poloidal magnetic flux in tokamaks. This paper was inspired by an article $\\big<$arxiv.org/abs/2507.05456$\\big>$ by Allen Boozer, which was posted on arXiv in various versions. The September 9, 2025 version was submitted to the Physics of Plasmas and flatly rejected until the issues raised in the Nuclear Fusion paper had been addressed. Not only did t",
+    "pdf_url": "https://arxiv.org/pdf/2601.05977v3",
+    "categories": [
+      "physics.plasm-ph"
+    ]
+  },
+  "2601.07237v1": {
+    "arxiv_id": "2601.07237v1",
+    "title": "The ICASSP 2026 Automatic Song Aesthetics Evaluation Challenge",
+    "authors": "Guobin Ma, Yuxuan Xia, Jixun Yao, Huixin Xue, Hexin Liu",
+    "published": "2026-01-12",
+    "abstract": "This paper summarizes the ICASSP 2026 Automatic Song Aesthetics Evaluation (ASAE) Challenge, which focuses on predicting the subjective aesthetic scores of AI-generated songs. The challenge consists of two tracks: Track 1 targets the prediction of the overall musicality score, while Track 2 focuses on predicting five fine-grained aesthetic scores. The challenge attracted strong interest from the research community and received numerous submissions from both academia and industry. Top-performing ",
+    "pdf_url": "https://arxiv.org/pdf/2601.07237v1",
+    "categories": [
+      "eess.AS",
+      "cs.SD"
+    ]
+  },
+  "2603.22728v1": {
+    "arxiv_id": "2603.22728v1",
+    "title": "The Interspeech 2026 Audio Encoder Capability Challenge for Large Audio Language Models",
+    "authors": "Heinrich Dinkel, Jiahao Zhou, Guanbo Wang, Yadong Niu, Junbo Zhang",
+    "published": "2026-03-24",
+    "abstract": "This paper presents the Interspeech 2026 Audio Encoder Capability Challenge, a benchmark specifically designed to evaluate and advance the performance of pre-trained audio encoders as front-end modules for Large Audio Language Models (LALMs). While LALMs have shown remarkable understanding of complex acoustic scenes, their performance depends on the semantic richness of the underlying audio encoder representations. This challenge addresses the integration gap by providing a unified generative ev",
+    "pdf_url": "https://arxiv.org/pdf/2603.22728v1",
+    "categories": [
+      "cs.SD",
+      "eess.AS"
+    ]
+  },
+  "2601.05564v2": {
+    "arxiv_id": "2601.05564v2",
+    "title": "The ICASSP 2026 HumDial Challenge: Benchmarking Human-like Spoken Dialogue Systems in the LLM Era",
+    "authors": "Zhixian Zhao, Shuiyuan Wang, Guojian Li, Hongfei Xue, Chengyou Wang",
+    "published": "2026-01-09",
+    "abstract": "Driven by the rapid advancement of Large Language Models (LLMs), particularly Audio-LLMs and Omni-models, spoken dialogue systems have evolved significantly, progressively narrowing the gap between human-machine and human-human interactions. Achieving truly ``human-like'' communication necessitates a dual capability: emotional intelligence to perceive and resonate with users' emotional states, and robust interaction mechanisms to navigate the dynamic, natural flow of conversation, such as real-t",
+    "pdf_url": "https://arxiv.org/pdf/2601.05564v2",
+    "categories": [
+      "cs.SD",
+      "cs.CL",
+      "cs.HC",
+      "eess.AS"
+    ]
+  },
+  "2603.24569v2": {
+    "arxiv_id": "2603.24569v2",
+    "title": "POLY-SIM: Polyglot Speaker Identification with Missing Modality Grand Challenge 2026 Evaluation Plan",
+    "authors": "Marta Moscati, Muhammad Saad Saeed, Marina Zanoni, Mubashir Noman, Rohan Kumar Das",
+    "published": "2026-03-25",
+    "abstract": "Multimodal speaker identification systems typically assume the availability of complete and homogeneous audio-visual modalities during both training and testing. However, in real-world applications, such assumptions often do not hold. Visual information may be missing due to occlusions, camera failures, or privacy constraints, while multilingual speakers introduce additional complexity due to linguistic variability across languages. These challenges significantly affect the robustness and genera",
+    "pdf_url": "https://arxiv.org/pdf/2603.24569v2",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  "2601.13531v1": {
+    "arxiv_id": "2601.13531v1",
+    "title": "ICASSP 2026 URGENT Speech Enhancement Challenge",
+    "authors": "Chenda Li, Wei Wang, Marvin Sach, Wangyou Zhang, Kohei Saijo",
+    "published": "2026-01-20",
+    "abstract": "The ICASSP 2026 URGENT Challenge advances the series by focusing on universal speech enhancement (SE) systems that handle diverse distortions, domains, and input conditions. This overview paper details the challenge's motivation, task definitions, datasets, baseline systems, evaluation protocols, and results. The challenge is divided into two complementary tracks. Track 1 focuses on universal speech enhancement, while Track 2 introduces speech quality assessment for enhanced speech. The challeng",
+    "pdf_url": "https://arxiv.org/pdf/2601.13531v1",
+    "categories": [
+      "eess.AS",
+      "cs.SD"
+    ]
+  },
+  "2003.08811v1": {
+    "arxiv_id": "2003.08811v1",
+    "title": "Temporal Embeddings and Transformer Models for Narrative Text Understanding",
+    "authors": "Vani K, Simone Mellace, Alessandro Antonucci",
+    "published": "2020-03-19",
+    "abstract": "We present two deep learning approaches to narrative text understanding for character relationship modelling. The temporal evolution of these relations is described by dynamic word embeddings, that are designed to learn semantic changes over time. An empirical analysis of the corresponding character trajectories shows that such approaches are effective in depicting dynamic evolution. A supervised learning approach based on the state-of-the-art transformer model BERT is used instead to detect sta",
+    "pdf_url": "https://arxiv.org/pdf/2003.08811v1",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  "2504.19675v2": {
+    "arxiv_id": "2504.19675v2",
+    "title": "Annif at SemEval-2025 Task 5: Traditional XMTC augmented by LLMs",
+    "authors": "Osma Suominen, Juho Inkinen, Mona Lehtinen",
+    "published": "2025-04-28",
+    "abstract": "This paper presents the Annif system in SemEval-2025 Task 5 (LLMs4Subjects), which focussed on subject indexing using large language models (LLMs). The task required creating subject predictions for bibliographic records from the bilingual TIBKAT database using the GND subject vocabulary. Our approach combines traditional natural language processing and machine learning techniques implemented in the Annif toolkit with innovative LLM-based methods for translation and synthetic data generation, an",
+    "pdf_url": "https://arxiv.org/pdf/2504.19675v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.DL",
+      "cs.IR",
+      "cs.LG"
+    ]
+  },
+  "2507.07539v1": {
+    "arxiv_id": "2507.07539v1",
+    "title": "CEA-LIST at CheckThat! 2025: Evaluating LLMs as Detectors of Bias and Opinion in Text",
+    "authors": "Akram Elbouanani, Evan Dufraisse, Aboubacar Tuo, Adrian Popescu",
+    "published": "2025-07-10",
+    "abstract": "This paper presents a competitive approach to multilingual subjectivity detection using large language models (LLMs) with few-shot prompting. We participated in Task 1: Subjectivity of the CheckThat! 2025 evaluation campaign. We show that LLMs, when paired with carefully designed prompts, can match or outperform fine-tuned smaller language models (SLMs), particularly in noisy or low-quality data settings. Despite experimenting with advanced prompt engineering techniques, such as debating LLMs an",
+    "pdf_url": "https://arxiv.org/pdf/2507.07539v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2301.00050v1": {
+    "arxiv_id": "2301.00050v1",
+    "title": "Long-Term Online Multi-Session Graph-Based SPLAM with Memory Management",
+    "authors": "Mathieu Labbé, François Michaud",
+    "published": "2022-12-30",
+    "abstract": "For long-term simultaneous planning, localization and mapping (SPLAM), a robot should be able to continuously update its map according to the dynamic changes of the environment and the new areas explored. With limited onboard computation capabilities, a robot should also be able to limit the size of the map used for online localization and mapping. This paper addresses these challenges using a memory management mechanism, which identifies locations that should remain in a Working Memory (WM) for",
+    "pdf_url": "https://arxiv.org/pdf/2301.00050v1",
+    "categories": [
+      "cs.RO"
+    ]
+  },
+  "2410.10813v2": {
+    "arxiv_id": "2410.10813v2",
+    "title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+    "authors": "Di Wu, Hongwei Wang, Wenhao Yu, Yuwei Zhang, Kai-Wei Chang",
+    "published": "2024-10-14",
+    "abstract": "Recent large language model (LLM)-driven chat assistant systems have integrated memory components to track user-assistant chat histories, enabling more accurate and personalized responses. However, their long-term memory capabilities in sustained interactions remain underexplored. We introduce LongMemEval, a comprehensive benchmark designed to evaluate five core long-term memory abilities of chat assistants: information extraction, multi-session reasoning, temporal reasoning, knowledge updates, ",
+    "pdf_url": "https://arxiv.org/pdf/2410.10813v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2507.12143v1": {
+    "arxiv_id": "2507.12143v1",
+    "title": "Overview of the Sensemaking Task at the ELOQUENT 2025 Lab: LLMs as Teachers, Students and Evaluators",
+    "authors": "Pavel Šindelář, Ondřej Bojar",
+    "published": "2025-07-16",
+    "abstract": "ELOQUENT is a set of shared tasks that aims to create easily testable high-level criteria for evaluating generative language models. Sensemaking is one such shared task.\n  In Sensemaking, we try to assess how well generative models ``make sense out of a given text'' in three steps inspired by exams in a classroom setting: (1) Teacher systems should prepare a set of questions, (2) Student systems should answer these questions, and (3) Evaluator systems should score these answers, all adhering rat",
+    "pdf_url": "https://arxiv.org/pdf/2507.12143v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2503.08541v1": {
+    "arxiv_id": "2503.08541v1",
+    "title": "LongEval at CLEF 2025: Longitudinal Evaluation of IR Model Performance",
+    "authors": "Matteo Cancellieri, Alaa El-Ebshihy, Tobias Fink, Petra Galuščáková, Gabriela Gonzalez-Saez",
+    "published": "2025-03-11",
+    "abstract": "This paper presents the third edition of the LongEval Lab, part of the CLEF 2025 conference, which continues to explore the challenges of temporal persistence in Information Retrieval (IR). The lab features two tasks designed to provide researchers with test data that reflect the evolving nature of user queries and document relevance over time. By evaluating how model performance degrades as test data diverge temporally from training data, LongEval seeks to advance the understanding of temporal ",
+    "pdf_url": "https://arxiv.org/pdf/2503.08541v1",
+    "categories": [
+      "cs.IR"
+    ]
+  },
+  "2210.13383v1": {
+    "arxiv_id": "2210.13383v1",
+    "title": "Evaluating Long-Term Memory in 3D Mazes",
+    "authors": "Jurgis Pasukonis, Timothy Lillicrap, Danijar Hafner",
+    "published": "2022-10-24",
+    "abstract": "Intelligent agents need to remember salient information to reason in partially-observed environments. For example, agents with a first-person view should remember the positions of relevant objects even if they go out of view. Similarly, to effectively navigate through rooms agents need to remember the floor plan of how rooms are connected. However, most benchmark tasks in reinforcement learning do not test long-term memory in agents, slowing down progress in this important research direction. In",
+    "pdf_url": "https://arxiv.org/pdf/2210.13383v1",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  "2603.08092v1": {
+    "arxiv_id": "2603.08092v1",
+    "title": "Language-Invariant Multilingual Speaker Verification for the TidyVoice 2026 Challenge",
+    "authors": "Ze Li, Xiaoxiao Miao, Juan Liu, Ming Li",
+    "published": "2026-03-09",
+    "abstract": "Multilingual speaker verification (SV) remains challenging due to limited cross-lingual data and language-dependent information in speaker embeddings. This paper presents a language-invariant multilingual SV system for the TidyVoice 2026 Challenge. We adopt the multilingual self-supervised w2v-BERT 2.0 model as the backbone, enhanced with Layer Adapters and Multi-scale Feature Aggregation to better exploit multi-layer representations. A language-adversarial training strategy with a Gradient Reve",
+    "pdf_url": "https://arxiv.org/pdf/2603.08092v1",
+    "categories": [
+      "eess.AS"
+    ]
+  },
+  "2603.06552v1": {
+    "arxiv_id": "2603.06552v1",
+    "title": "KCLarity at SemEval-2026 Task 6: Encoder and Zero-Shot Approaches to Political Evasion Detection",
+    "authors": "Archie Sage, Salvatore Greco",
+    "published": "2026-03-06",
+    "abstract": "This paper describes the KCLarity team's participation in CLARITY, a shared task at SemEval 2026 on classifying ambiguity and evasion techniques in political discourse. We investigate two modelling formulations: (i) directly predicting the clarity label, and (ii) predicting the evasion label and deriving clarity through the task taxonomy hierarchy. We further explore several auxiliary training variants and evaluate decoder-only models in a zero-shot setting under the evasion-first formulation. O",
+    "pdf_url": "https://arxiv.org/pdf/2603.06552v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2602.21012v1": {
+    "arxiv_id": "2602.21012v1",
+    "title": "International AI Safety Report 2026",
+    "authors": "Yoshua Bengio, Stephen Clare, Carina Prunkl, Maksym Andriushchenko, Ben Bucknall",
+    "published": "2026-02-24",
+    "abstract": "The International AI Safety Report 2026 synthesises the current scientific evidence on the capabilities, emerging risks, and safety of general-purpose AI systems. The report series was mandated by the nations attending the AI Safety Summit in Bletchley, UK. 29 nations, the UN, the OECD, and the EU each nominated a representative to the report's Expert Advisory Panel. Over 100 AI experts contributed, representing diverse perspectives and disciplines. Led by the Report's Chair, these independent e",
+    "pdf_url": "https://arxiv.org/pdf/2602.21012v1",
+    "categories": [
+      "cs.CY"
+    ]
+  },
+  "2305.10250v3": {
+    "arxiv_id": "2305.10250v3",
+    "title": "MemoryBank: Enhancing Large Language Models with Long-Term Memory",
+    "authors": "Wanjun Zhong, Lianghong Guo, Qiqi Gao, He Ye, Yanlin Wang",
+    "published": "2023-05-17",
+    "abstract": "Revolutionary advancements in Large Language Models have drastically reshaped our interactions with artificial intelligence systems. Despite this, a notable hindrance remains-the deficiency of a long-term memory mechanism within these models. This shortfall becomes increasingly evident in situations demanding sustained interaction, such as personal companion systems and psychological counseling. Therefore, we propose MemoryBank, a novel memory mechanism tailored for LLMs. MemoryBank enables the ",
+    "pdf_url": "https://arxiv.org/pdf/2305.10250v3",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2410.02371v1": {
+    "arxiv_id": "2410.02371v1",
+    "title": "NTU-NPU System for Voice Privacy 2024 Challenge",
+    "authors": "Nikita Kuzmin, Hieu-Thi Luong, Jixun Yao, Lei Xie, Kong Aik Lee",
+    "published": "2024-10-03",
+    "abstract": "In this work, we describe our submissions for the Voice Privacy Challenge 2024. Rather than proposing a novel speech anonymization system, we enhance the provided baselines to meet all required conditions and improve evaluated metrics. Specifically, we implement emotion embedding and experiment with WavLM and ECAPA2 speaker embedders for the B3 baseline. Additionally, we compare different speaker and prosody anonymization techniques. Furthermore, we introduce Mean Reversion F0 for B5, which help",
+    "pdf_url": "https://arxiv.org/pdf/2410.02371v1",
+    "categories": [
+      "eess.AS",
+      "cs.AI"
+    ]
+  },
+  "2403.00634v2": {
+    "arxiv_id": "2403.00634v2",
+    "title": "Atmospheric entry and fragmentation of small asteroid 2024 BX1: Bolide trajectory, orbit, dynamics, light curve, and spectrum",
+    "authors": "P. Spurny, J. Borovicka, L. Shrbeny, M. Hankey, R. Neubert",
+    "published": "2024-03-01",
+    "abstract": "Asteroid 2024 BX1 was the eighth asteroid that was discovered shortly before colliding with the Earth. The associated bolide was recorded by dedicated instruments of the European Fireball Network and the AllSky7 network on 2024 January 21 at 0:32:38-44 UT. We report a comprehensive analysis of this instrumentally observed meteorite fall, which occurred as predicted west of Berlin, Germany. The atmospheric trajectory was quite steep, with an average slope to the Earth's surface of 75.6 deg. The e",
+    "pdf_url": "https://arxiv.org/pdf/2403.00634v2",
+    "categories": [
+      "astro-ph.EP"
+    ]
+  },
+  "2410.07245v1": {
+    "arxiv_id": "2410.07245v1",
+    "title": "AAAI Workshop on AI Planning for Cyber-Physical Systems -- CAIPI24",
+    "authors": "Oliver Niggemann, Gautam Biswas, Alexander Diedrich, Jonas Ehrhardt, René Heesch",
+    "published": "2024-10-08",
+    "abstract": "The workshop 'AI-based Planning for Cyber-Physical Systems', which took place on February 26, 2024, as part of the 38th Annual AAAI Conference on Artificial Intelligence in Vancouver, Canada, brought together researchers to discuss recent advances in AI planning methods for Cyber-Physical Systems (CPS). CPS pose a major challenge due to their complexity and data-intensive nature, which often exceeds the capabilities of traditional planning algorithms. The workshop highlighted new approaches such",
+    "pdf_url": "https://arxiv.org/pdf/2410.07245v1",
+    "categories": [
+      "cs.AI"
+    ]
+  },
+  "2409.08956v1": {
+    "arxiv_id": "2409.08956v1",
+    "title": "Discovery Opportunities with Gravitational Waves -- TASI 2024 Lecture Notes",
+    "authors": "Valerie Domcke",
+    "published": "2024-09-13",
+    "abstract": "Recent advancements in gravitational wave astronomy hold the promise of a completely new way to explore our Universe. These lecture notes aim to provide a concise but self-contained introduction to key concepts of gravitational wave physics, with a focus on the opportunities to explore fundamental physics in transient gravitational wave signals and stochastic gravitational wave background searches.CERN-TH-2024-152",
+    "pdf_url": "https://arxiv.org/pdf/2409.08956v1",
+    "categories": [
+      "astro-ph.CO",
+      "gr-qc",
+      "hep-ph"
+    ]
+  },
+  "2406.15778v2": {
+    "arxiv_id": "2406.15778v2",
+    "title": "ObjectNLQ @ Ego4D Episodic Memory Challenge 2024",
+    "authors": "Yisen Feng, Haoyu Zhang, Yuquan Xie, Zaijing Li, Meng Liu",
+    "published": "2024-06-22",
+    "abstract": "In this report, we present our approach for the Natural Language Query track and Goal Step track of the Ego4D Episodic Memory Benchmark at CVPR 2024. Both challenges require the localization of actions within long video sequences using textual queries. To enhance localization accuracy, our method not only processes the temporal information of videos but also identifies fine-grained objects spatially within the frames. To this end, we introduce a novel approach, termed ObjectNLQ, which incorporat",
+    "pdf_url": "https://arxiv.org/pdf/2406.15778v2",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  "2406.10598v1": {
+    "arxiv_id": "2406.10598v1",
+    "title": "Double Multi-Head Attention Multimodal System for Odyssey 2024 Speech Emotion Recognition Challenge",
+    "authors": "Federico Costa, Miquel India, Javier Hernando",
+    "published": "2024-06-15",
+    "abstract": "As computer-based applications are becoming more integrated into our daily lives, the importance of Speech Emotion Recognition (SER) has increased significantly. Promoting research with innovative approaches in SER, the Odyssey 2024 Speech Emotion Recognition Challenge was organized as part of the Odyssey 2024 Speaker and Language Recognition Workshop. In this paper we describe the Double Multi-Head Attention Multimodal System developed for this challenge. Pre-trained self-supervised models were",
+    "pdf_url": "https://arxiv.org/pdf/2406.10598v1",
+    "categories": [
+      "eess.AS",
+      "cs.SD"
+    ]
+  },
+  "2407.12038v2": {
+    "arxiv_id": "2407.12038v2",
+    "title": "ICAGC 2024: Inspirational and Convincing Audio Generation Challenge 2024",
+    "authors": "Ruibo Fu, Rui Liu, Chunyu Qiang, Yingming Gao, Yi Lu",
+    "published": "2024-07-01",
+    "abstract": "The Inspirational and Convincing Audio Generation Challenge 2024 (ICAGC 2024) is part of the ISCSLP 2024 Competitions and Challenges track. While current text-to-speech (TTS) technology can generate high-quality audio, its ability to convey complex emotions and controlled detail content remains limited. This constraint leads to a discrepancy between the generated audio and human subjective perception in practical applications like companion robots for children and marketing bots. The core issue ",
+    "pdf_url": "https://arxiv.org/pdf/2407.12038v2",
+    "categories": [
+      "eess.AS",
+      "cs.AI"
+    ]
+  },
+  "2409.15402v2": {
+    "arxiv_id": "2409.15402v2",
+    "title": "Uncovering Coordinated Cross-Platform Information Operations Threatening the Integrity of the 2024 U.S. Presidential Election Online Discussion",
+    "authors": "Marco Minici, Luca Luceri, Federico Cinus, Emilio Ferrara",
+    "published": "2024-09-23",
+    "abstract": "Information Operations (IOs) pose a significant threat to the integrity of democratic processes, with the potential to influence election-related online discourse. In anticipation of the 2024 U.S. presidential election, we present a study aimed at uncovering the digital traces of coordinated IOs on $\\mathbb{X}$ (formerly Twitter). Using our machine learning framework for detecting online coordination, we analyze a dataset comprising election-related conversations on $\\mathbb{X}$ from May 2024. T",
+    "pdf_url": "https://arxiv.org/pdf/2409.15402v2",
+    "categories": [
+      "cs.SI",
+      "cs.CY"
+    ]
+  },
+  "2302.12944v1": {
+    "arxiv_id": "2302.12944v1",
+    "title": "Dependency Dialogue Acts -- Annotation Scheme and Case Study",
+    "authors": "Jon Z. Cai, Brendan King, Margaret Perkoff, Shiran Dudy, Jie Cao",
+    "published": "2023-02-25",
+    "abstract": "In this paper, we introduce Dependency Dialogue Acts (DDA), a novel framework for capturing the structure of speaker-intentions in multi-party dialogues. DDA combines and adapts features from existing dialogue annotation frameworks, and emphasizes the multi-relational response structure of dialogues in addition to the dialogue acts and rhetorical relations. It represents the functional, discourse, and response structure in multi-party multi-threaded conversations. A few key features distinguish ",
+    "pdf_url": "https://arxiv.org/pdf/2302.12944v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2409.12524v3": {
+    "arxiv_id": "2409.12524v3",
+    "title": "Enhancing Long-term RAG Chatbots with Psychological Models of Memory Importance and Forgetting",
+    "authors": "Ryuichi Sumida, Koji Inoue, Tatsuya Kawahara",
+    "published": "2024-09-19",
+    "abstract": "While Retrieval-Augmented Generation (RAG) has shown promise in enhancing long-term conversations, the increasing memory load as conversations progress degrades retrieval accuracy. Drawing on psychological insights, we propose LUFY, a simple yet effective method that focuses on emotionally arousing memories and retains less than 10% of the conversation. In the user experiment, participants interacted with three types of RAG chatbots, each for 2 hours over 4 sessions, marking the most extensive a",
+    "pdf_url": "https://arxiv.org/pdf/2409.12524v3",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2504.01346v4": {
+    "arxiv_id": "2504.01346v4",
+    "title": "RAG over Tables: Hierarchical Memory Index, Multi-Stage Retrieval, and Benchmarking",
+    "authors": "Jiaru Zou, Dongqi Fu, Sirui Chen, Xinrui He, Zihao Li",
+    "published": "2025-04-02",
+    "abstract": "Retrieval-Augmented Generation (RAG) enhances Large Language Models (LLMs) by integrating them with an external knowledge base to improve the answer relevance and accuracy. In real-world scenarios, beyond pure text, a substantial amount of knowledge is stored in tables, and user questions often require retrieving answers that are distributed across multiple tables. Retrieving knowledge from a table corpora (i.e., various individual tables) for a question remains nascent, at least, for (i) how to",
+    "pdf_url": "https://arxiv.org/pdf/2504.01346v4",
+    "categories": [
+      "cs.CL",
+      "cs.IR",
+      "cs.LG"
+    ]
+  },
+  "2409.18313v5": {
+    "arxiv_id": "2409.18313v5",
+    "title": "Embodied-RAG: General Non-parametric Embodied Memory for Retrieval and Generation",
+    "authors": "Quanting Xie, So Yeon Min, Pengliang Ji, Yue Yang, Tianyi Zhang",
+    "published": "2024-09-26",
+    "abstract": "There is no limit to how much a robot might explore and learn, but all of that knowledge needs to be searchable and actionable. Within language research, retrieval augmented generation (RAG) has become the workhorse of large-scale non-parametric knowledge; however, existing techniques do not directly transfer to the embodied domain, which is multimodal, where data is highly correlated, and perception requires abstraction. To address these challenges, we introduce Embodied-RAG, a framework that e",
+    "pdf_url": "https://arxiv.org/pdf/2409.18313v5",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  "2502.13957v2": {
+    "arxiv_id": "2502.13957v2",
+    "title": "RAG-Gym: Systematic Optimization of Language Agents for Retrieval-Augmented Generation",
+    "authors": "Guangzhi Xiong, Qiao Jin, Xiao Wang, Yin Fang, Haolin Liu",
+    "published": "2025-02-19",
+    "abstract": "Retrieval-augmented generation (RAG) has shown great promise for knowledge-intensive tasks and recently advanced with agentic RAG, where language agents engage in multi-round interactions with external knowledge sources for adaptive information retrieval. However, existing agentic RAG methods often depend on ad-hoc prompt engineering and lack a unified optimization framework. We introduce RAG-Gym, a comprehensive platform that systematically explores three optimization dimensions: (1) prompt eng",
+    "pdf_url": "https://arxiv.org/pdf/2502.13957v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "1910.00340v1": {
+    "arxiv_id": "1910.00340v1",
+    "title": "VOnDA: A Framework for Ontology-Based Dialogue Management",
+    "authors": "Bernd Kiefer, Anna Welker, Christophe Biwer",
+    "published": "2019-10-01",
+    "abstract": "We present VOnDA, a framework to implement the dialogue management functionality in dialogue systems. Although domain-independent, VOnDA is tailored towards dialogue systems with a focus on social communication, which implies the need of long-term memory and high user adaptivity. For these systems, which are used in health environments or elderly care, margin of error is very low and control over the dialogue process is of topmost importance. The same holds for commercial applications, where cus",
+    "pdf_url": "https://arxiv.org/pdf/1910.00340v1",
+    "categories": [
+      "cs.HC",
+      "cs.CL"
+    ]
+  },
+  "2412.12881v1": {
+    "arxiv_id": "2412.12881v1",
+    "title": "RAG-Star: Enhancing Deliberative Reasoning with Retrieval Augmented Verification and Refinement",
+    "authors": "Jinhao Jiang, Jiayi Chen, Junyi Li, Ruiyang Ren, Shijie Wang",
+    "published": "2024-12-17",
+    "abstract": "Existing large language models (LLMs) show exceptional problem-solving capabilities but might struggle with complex reasoning tasks. Despite the successes of chain-of-thought and tree-based search methods, they mainly depend on the internal knowledge of LLMs to search over intermediate reasoning steps, limited to dealing with simple tasks involving fewer reasoning steps. In this paper, we propose \\textbf{RAG-Star}, a novel RAG approach that integrates the retrieved information to guide the tree-",
+    "pdf_url": "https://arxiv.org/pdf/2412.12881v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2308.15022v4": {
+    "arxiv_id": "2308.15022v4",
+    "title": "Recursively Summarizing Enables Long-Term Dialogue Memory in Large Language Models",
+    "authors": "Qingyue Wang, Yanhe Fu, Yanan Cao, Shuai Wang, Zhiliang Tian",
+    "published": "2023-08-29",
+    "abstract": "Recently, large language models (LLMs), such as GPT-4, stand out remarkable conversational abilities, enabling them to engage in dynamic and contextually relevant dialogues across a wide range of topics. However, given a long conversation, these chatbots fail to recall past information and tend to generate inconsistent responses. To address this, we propose to recursively generate summaries/ memory using large language models (LLMs) to enhance long-term memory ability. Specifically, our method f",
+    "pdf_url": "https://arxiv.org/pdf/2308.15022v4",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2510.20381v1": {
+    "arxiv_id": "2510.20381v1",
+    "title": "VLSP 2025 MLQA-TSR Challenge: Vietnamese Multimodal Legal Question Answering on Traffic Sign Regulation",
+    "authors": "Son T. Luu, Trung Vo, Hiep Nguyen, Khanh Quoc Tran, Kiet Van Nguyen",
+    "published": "2025-10-23",
+    "abstract": "This paper presents the VLSP 2025 MLQA-TSR - the multimodal legal question answering on traffic sign regulation shared task at VLSP 2025. VLSP 2025 MLQA-TSR comprises two subtasks: multimodal legal retrieval and multimodal question answering. The goal is to advance research on Vietnamese multimodal legal text processing and to provide a benchmark dataset for building and evaluating intelligent systems in multimodal legal domains, with a focus on traffic sign regulation in Vietnam. The best-repor",
+    "pdf_url": "https://arxiv.org/pdf/2510.20381v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2506.03023v4": {
+    "arxiv_id": "2506.03023v4",
+    "title": "TDCOSMO 2025: Cosmological constraints from strong lensing time delays",
+    "authors": "TDCOSMO Collaboration, Simon Birrer, Elizabeth J. Buckley-Geer, Michele Cappellari, Frédéric Courbin",
+    "published": "2025-06-03",
+    "abstract": "We present cosmological constraints from 8 strongly lensed quasars (hereafter, the TDCOSMO-2025 sample). Building on previous work, our analysis incorporated new deflector stellar velocity dispersions measured from spectra obtained with the James Webb Space Telescope (JWST), the Keck Telescopes, and the Very Large Telescope (VLT), utilizing improved methods. We used integrated JWST stellar kinematics for 5 lenses, VLT-MUSE for 2, and resolved kinematics from Keck and JWST for RXJ1131-1231. We al",
+    "pdf_url": "https://arxiv.org/pdf/2506.03023v4",
+    "categories": [
+      "astro-ph.CO"
+    ]
+  },
+  "2509.01336v1": {
+    "arxiv_id": "2509.01336v1",
+    "title": "The AudioMOS Challenge 2025",
+    "authors": "Wen-Chin Huang, Hui Wang, Cheng Liu, Yi-Chiao Wu, Andros Tjandra",
+    "published": "2025-09-01",
+    "abstract": "This is the summary paper for the AudioMOS Challenge 2025, the very first challenge for automatic subjective quality prediction for synthetic audio. The challenge consists of three tracks. The first track aims to assess text-to-music samples in terms of overall quality and textual alignment. The second track is based on the four evaluation dimensions of Meta Audiobox Aesthetics, and the test set consists of text-to-speech, text-to-audio, and text-to-music samples. The third track focuses on synt",
+    "pdf_url": "https://arxiv.org/pdf/2509.01336v1",
+    "categories": [
+      "cs.SD",
+      "eess.AS"
+    ]
+  },
+  "2603.25973v1": {
+    "arxiv_id": "2603.25973v1",
+    "title": "MemoryCD: Benchmarking Long-Context User Memory of LLM Agents for Lifelong Cross-Domain Personalization",
+    "authors": "Weizhi Zhang, Xiaokai Wei, Wei-Chieh Huang, Zheng Hui, Chen Wang",
+    "published": "2026-03-26",
+    "abstract": "Recent advancements in Large Language Models (LLMs) have expanded context windows to million-token scales, yet benchmarks for evaluating memory remain limited to short-session synthetic dialogues. We introduce \\textsc{MemoryCD}, the first large-scale, user-centric, cross-domain memory benchmark derived from lifelong real-world behaviors in the Amazon Review dataset. Unlike existing memory datasets that rely on scripted personas to generate synthetic user data, \\textsc{MemoryCD} tracks authentic ",
+    "pdf_url": "https://arxiv.org/pdf/2603.25973v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2601.05960v2": {
+    "arxiv_id": "2601.05960v2",
+    "title": "Distilling Feedback into Memory-as-a-Tool",
+    "authors": "Víctor Gallego",
+    "published": "2026-01-09",
+    "abstract": "We propose a framework that amortizes the cost of inference-time reasoning by converting transient critiques into retrievable guidelines, through a file-based memory system and agent-controlled tool calls. We evaluate this method on the Rubric Feedback Bench, a novel dataset for rubric-based learning. Experiments demonstrate that our augmented LLMs rapidly match the performance of test-time refinement pipelines while drastically reducing inference cost.",
+    "pdf_url": "https://arxiv.org/pdf/2601.05960v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "1805.10966v4": {
+    "arxiv_id": "1805.10966v4",
+    "title": "Lifelong Learning of Spatiotemporal Representations with Dual-Memory Recurrent Self-Organization",
+    "authors": "German I. Parisi, Jun Tani, Cornelius Weber, Stefan Wermter",
+    "published": "2018-05-28",
+    "abstract": "Artificial autonomous agents and robots interacting in complex environments are required to continually acquire and fine-tune knowledge over sustained periods of time. The ability to learn from continuous streams of information is referred to as lifelong learning and represents a long-standing challenge for neural network models due to catastrophic forgetting. Computational models of lifelong learning typically alleviate catastrophic forgetting in experimental scenarios with given datasets of st",
+    "pdf_url": "https://arxiv.org/pdf/1805.10966v4",
+    "categories": [
+      "cs.AI"
+    ]
+  },
+  "2603.04428v1": {
+    "arxiv_id": "2603.04428v1",
+    "title": "Agent Memory Below the Prompt: Persistent Q4 KV Cache for Multi-Agent LLM Inference on Edge Devices",
+    "authors": "Yakov Pyotr Shkolnikov",
+    "published": "2026-02-17",
+    "abstract": "Multi-agent LLM systems on edge devices face a memory management problem: device RAM is too small to hold every agent's KV cache simultaneously. On Apple M4 Pro with 10.2 GB of cache budget, only 3 agents fit at 8K context in FP16. A 10-agent workflow must constantly evict and reload caches. Without persistence, every eviction forces a full re-prefill through the model -- 15.7 seconds per agent at 4K context. We address this by persisting each agent's KV cache to disk in 4-bit quantized format a",
+    "pdf_url": "https://arxiv.org/pdf/2603.04428v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  "1509.00070v1": {
+    "arxiv_id": "1509.00070v1",
+    "title": "In-Line-Test of Variability and Bit-Error-Rate of HfOx-Based Resistive Memory",
+    "authors": "B. L. Ji, H. Li, Q. Ye, S. Gausepohl, S. Deora",
+    "published": "2015-08-31",
+    "abstract": "Spatial and temporal variability of HfOx-based resistive random access memory (RRAM) are investigated for manufacturing and product designs. Manufacturing variability is characterized at different levels including lots, wafers, and chips. Bit-error-rate (BER) is proposed as a holistic parameter for the write cycle resistance statistics. Using the electrical in-line-test cycle data, a method is developed to derive BERs as functions of the design margin, to provide guidance for technology evaluati",
+    "pdf_url": "https://arxiv.org/pdf/1509.00070v1",
+    "categories": [
+      "cs.ET",
+      "cond-mat.mtrl-sci",
+      "physics.data-an"
+    ]
+  },
+  "1308.2881v1": {
+    "arxiv_id": "1308.2881v1",
+    "title": "Opacity of Memory Management in Software Transactional Memory",
+    "authors": "Holger Machens, Volker Turau",
+    "published": "2013-08-13",
+    "abstract": "Opacity of Transactional Memory is proposed to be established by incremental validation. Quiescence in terms of epoch-based memory reclamation is applied to deal with doomed transactions causing memory access violations. This method unfortunately involves increased memory consumption and does not cover reclamations outside of transactions. This paper introduces a different method which combines incremental validation with elements of sandboxing to solve these issues.",
+    "pdf_url": "https://arxiv.org/pdf/1308.2881v1",
+    "categories": [
+      "cs.DC",
+      "cs.OS"
+    ]
+  },
+  "2603.15642v1": {
+    "arxiv_id": "2603.15642v1",
+    "title": "CraniMem: Cranial Inspired Gated and Bounded Memory for Agentic Systems",
+    "authors": "Pearl Mody, Mihir Panchal, Rishit Kar, Kiran Bhowmick, Ruhina Karani",
+    "published": "2026-03-03",
+    "abstract": "Large language model (LLM) agents are increasingly deployed in long running workflows, where they must preserve user and task state across many turns. Many existing agent memory systems behave like external databases with ad hoc read/write rules, which can yield unstable retention, limited consolidation, and vulnerability to distractor content. We present CraniMem, a neurocognitively motivated, gated and bounded multi-stage memory design for agentic systems. CraniMem couples goal conditioned gat",
+    "pdf_url": "https://arxiv.org/pdf/2603.15642v1",
+    "categories": [
+      "cs.AI"
+    ]
+  },
+  "1002.1191v1": {
+    "arxiv_id": "1002.1191v1",
+    "title": "Unidirectional Error Correcting Codes for Memory Systems: A Comparative Study",
+    "authors": "Muzhir Al-Ani, Qeethara Al-Shayea",
+    "published": "2010-02-05",
+    "abstract": "In order to achieve fault tolerance, highly reliable system often require the ability to detect errors as soon as they occur and prevent the speared of erroneous information throughout the system. Thus, the need for codes capable of detecting and correcting byte errors are extremely important since many memory systems use b-bit-per-chip organization. Redundancy on the chip must be put to make fault-tolerant design available. This paper examined several methods of computer memory systems, and the",
+    "pdf_url": "https://arxiv.org/pdf/1002.1191v1",
+    "categories": [
+      "cs.IT"
+    ]
+  },
+  "2512.15790v1": {
+    "arxiv_id": "2512.15790v1",
+    "title": "Bilevel Optimization for Covert Memory Tampering in Heterogeneous Multi-Agent Architectures (XAMT)",
+    "authors": "Akhil Sharma, Shaikh Yaser Arafat, Jai Kumar Sharma, Ken Huang",
+    "published": "2025-12-15",
+    "abstract": "The increasing operational reliance on complex Multi-Agent Systems (MAS) across safety-critical domains necessitates rigorous adversarial robustness assessment. Modern MAS are inherently heterogeneous, integrating conventional Multi-Agent Reinforcement Learning (MARL) with emerging Large Language Model (LLM) agent architectures utilizing Retrieval-Augmented Generation (RAG). A critical shared vulnerability is reliance on centralized memory components: the shared Experience Replay (ER) buffer in ",
+    "pdf_url": "https://arxiv.org/pdf/2512.15790v1",
+    "categories": [
+      "cs.CR"
+    ]
+  },
+  "2110.07276v3": {
+    "arxiv_id": "2110.07276v3",
+    "title": "Carousel Memory: Rethinking the Design of Episodic Memory for Continual Learning",
+    "authors": "Soobee Lee, Minindu Weerakoon, Jonghyun Choi, Minjia Zhang, Di Wang",
+    "published": "2021-10-14",
+    "abstract": "Continual Learning (CL) is an emerging machine learning paradigm that aims to learn from a continuous stream of tasks without forgetting knowledge learned from the previous tasks. To avoid performance decrease caused by forgetting, prior studies exploit episodic memory (EM), which stores a subset of the past observed samples while learning from new non-i.i.d. data. Despite the promising results, since CL is often assumed to execute on mobile or IoT devices, the EM size is bounded by the small ha",
+    "pdf_url": "https://arxiv.org/pdf/2110.07276v3",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  "2511.07587v2": {
+    "arxiv_id": "2511.07587v2",
+    "title": "Beyond Fact Retrieval: Episodic Memory for RAG with Generative Semantic Workspaces",
+    "authors": "Shreyas Rajesh, Pavan Holur, Chenda Duan, David Chong, Vwani Roychowdhury",
+    "published": "2025-11-10",
+    "abstract": "Large Language Models (LLMs) face fundamental challenges in long-context reasoning: many documents exceed their finite context windows, while performance on texts that do fit degrades with sequence length, necessitating their augmentation with external memory frameworks. Current solutions, which have evolved from retrieval using semantic embeddings to more sophisticated structured knowledge graphs representations for improved sense-making and associativity, are tailored for fact-based retrieval ",
+    "pdf_url": "https://arxiv.org/pdf/2511.07587v2",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  "2509.18868v1": {
+    "arxiv_id": "2509.18868v1",
+    "title": "Memory in Large Language Models: Mechanisms, Evaluation and Evolution",
+    "authors": "Dianxing Zhang, Wendong Li, Kani Song, Jiaye Lu, Gang Li",
+    "published": "2025-09-23",
+    "abstract": "Under a unified operational definition, we define LLM memory as a persistent state written during pretraining, finetuning, or inference that can later be addressed and that stably influences outputs. We propose a four-part taxonomy (parametric, contextual, external, procedural/episodic) and a memory quadruple (location, persistence, write/access path, controllability). We link mechanism, evaluation, and governance via the chain write -> read -> inhibit/update. To avoid distorted comparisons acro",
+    "pdf_url": "https://arxiv.org/pdf/2509.18868v1",
+    "categories": [
+      "cs.AI"
+    ]
+  },
+  "2603.21096v1": {
+    "arxiv_id": "2603.21096v1",
+    "title": "Mixture of Chapters: Scaling Learnt Memory in Transformers",
+    "authors": "Tasmay Pankaj Tibrewal, Pritish Saha, Ankit Meda, Kunal Singh, Pradeep Moturi",
+    "published": "2026-03-22",
+    "abstract": "Transformers lack an explicit architectural mechanism for storing and organizing knowledge acquired during training. We introduce learnable sparse memory banks: a set of latent tokens, randomly initialized and trained end-to-end, that transformer layers query via cross-attention to retrieve stored knowledge. To scale memory capacity without prohibitive attention costs, we propose chapter-based routing inspired by Mixture-of-Experts architectures, partitioning the memory bank into chapters and tr",
+    "pdf_url": "https://arxiv.org/pdf/2603.21096v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  "2602.07525v1": {
+    "arxiv_id": "2602.07525v1",
+    "title": "IGMiRAG: Intuition-Guided Retrieval-Augmented Generation with Adaptive Mining of In-Depth Memory",
+    "authors": "Xingliang Hou, Yuyan Liu, Qi Sun, haoxiu wang, Hao Hu",
+    "published": "2026-02-07",
+    "abstract": "Retrieval-augmented generation (RAG) equips large language models (LLMs) with reliable knowledge memory. To strengthen cross-text associations, recent research integrates graphs and hypergraphs into RAG to capture pairwise and multi-entity relations as structured links. However, their misaligned memory organization necessitates costly, disjointed retrieval. To address these limitations, we propose IGMiRAG, a framework inspired by human intuition-guided reasoning. It constructs a hierarchical het",
+    "pdf_url": "https://arxiv.org/pdf/2602.07525v1",
+    "categories": [
+      "cs.IR"
+    ]
+  },
+  "2402.17753v1": {
+    "arxiv_id": "2402.17753v1",
+    "title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+    "authors": "Adyasha Maharana, Dong-Ho Lee, Sergey Tulyakov, Mohit Bansal, Francesco Barbieri",
+    "published": "2024-02-27",
+    "abstract": "Existing works on long-term open-domain dialogues focus on evaluating model responses within contexts spanning no more than five chat sessions. Despite advancements in long-context large language models (LLMs) and retrieval augmented generation (RAG) techniques, their efficacy in very long-term dialogues remains unexplored. To address this research gap, we introduce a machine-human pipeline to generate high-quality, very long-term dialogues by leveraging LLM-based agent architectures and groundi",
+    "pdf_url": "https://arxiv.org/pdf/2402.17753v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  "2403.03788v1": {
+    "arxiv_id": "2403.03788v1",
+    "title": "PPTC-R benchmark: Towards Evaluating the Robustness of Large Language Models for PowerPoint Task Completion",
+    "authors": "Zekai Zhang, Yiduo Guo, Yaobo Liang, Dongyan Zhao, Nan Duan",
+    "published": "2024-03-06",
+    "abstract": "The growing dependence on Large Language Models (LLMs) for finishing user instructions necessitates a comprehensive understanding of their robustness to complex task completion in real-world situations. To address this critical need, we propose the PowerPoint Task Completion Robustness benchmark (PPTC-R) to measure LLMs' robustness to the user PPT task instruction and software version. Specifically, we construct adversarial user instructions by attacking user instructions at sentence, semantic, ",
+    "pdf_url": "https://arxiv.org/pdf/2403.03788v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2601.03515v1": {
+    "arxiv_id": "2601.03515v1",
+    "title": "Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents",
+    "authors": "Yuanchen Bei, Tianxin Wei, Xuying Ning, Yanjun Zhao, Zhining Liu",
+    "published": "2026-01-07",
+    "abstract": "Long-term memory is a critical capability for multimodal large language model (MLLM) agents, particularly in conversational settings where information accumulates and evolves over time. However, existing benchmarks either evaluate multi-session memory in text-only conversations or assess multimodal understanding within localized contexts, failing to evaluate how multimodal memory is preserved, organized, and evolved across long-term conversational trajectories. Thus, we introduce Mem-Gallery, a ",
+    "pdf_url": "https://arxiv.org/pdf/2601.03515v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2510.27246v2": {
+    "arxiv_id": "2510.27246v2",
+    "title": "Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs",
+    "authors": "Mohammad Tavakoli, Alireza Salemi, Carrie Ye, Mohamed Abdalla, Hamed Zamani",
+    "published": "2025-10-31",
+    "abstract": "Evaluating the abilities of large language models (LLMs) for tasks that require long-term memory and thus long-context reasoning, for example in conversational settings, is hampered by the existing benchmarks, which often lack narrative coherence, cover narrow domains, and only test simple recall-oriented tasks. This paper introduces a comprehensive solution to these challenges. First, we present a novel framework for automatically generating long (up to 10M tokens), coherent, and topically dive",
+    "pdf_url": "https://arxiv.org/pdf/2510.27246v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR"
+    ]
+  },
+  "2403.05839v3": {
+    "arxiv_id": "2403.05839v3",
+    "title": "Long-Term Visual Object Tracking with Event Cameras: An Associative Memory Augmented Tracker and A Benchmark Dataset",
+    "authors": "Xiao Wang, Xufeng Lou, Shiao Wang, Ju Huang, Lan Chen",
+    "published": "2024-03-09",
+    "abstract": "Existing event stream based trackers undergo evaluation on short-term tracking datasets, however, the tracking of real-world scenarios involves long-term tracking, and the performance of existing tracking algorithms in these scenarios remains unclear. In this paper, we first propose a new long-term, large-scale frame-event visual object tracking dataset, termed FELT. It contains 1,044 long-term videos that involve 1.9 million RGB frames and event stream pairs, 60 different target objects, and 14",
+    "pdf_url": "https://arxiv.org/pdf/2403.05839v3",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.NE"
+    ]
+  },
+  "1801.05075v2": {
+    "arxiv_id": "1801.05075v2",
+    "title": "A Human-Grounded Evaluation Benchmark for Local Explanations of Machine Learning",
+    "authors": "Sina Mohseni, Jeremy E. Block, Eric D. Ragan",
+    "published": "2018-01-16",
+    "abstract": "Research in interpretable machine learning proposes different computational and human subject approaches to evaluate model saliency explanations. These approaches measure different qualities of explanations to achieve diverse goals in designing interpretable machine learning systems. In this paper, we propose a human attention benchmark for image and text domains using multi-layer human attention masks aggregated from multiple human annotators. We then present an evaluation study to evaluate mod",
+    "pdf_url": "https://arxiv.org/pdf/1801.05075v2",
+    "categories": [
+      "cs.HC",
+      "cs.AI"
+    ]
+  },
+  "2601.04745v1": {
+    "arxiv_id": "2601.04745v1",
+    "title": "KnowMe-Bench: Benchmarking Person Understanding for Lifelong Digital Companions",
+    "authors": "Tingyu Wu, Zhisheng Chen, Ziyan Weng, Shuhe Wang, Chenglong Li",
+    "published": "2026-01-08",
+    "abstract": "Existing long-horizon memory benchmarks mostly use multi-turn dialogues or synthetic user histories, which makes retrieval performance an imperfect proxy for person understanding. We present \\BenchName, a publicly releasable benchmark built from long-form autobiographical narratives, where actions, context, and inner thoughts provide dense evidence for inferring stable motivations and decision principles. \\BenchName~reconstructs each narrative into a flashback-aware, time-anchored stream and eva",
+    "pdf_url": "https://arxiv.org/pdf/2601.04745v1",
+    "categories": [
+      "cs.AI",
+      "cs.IR"
+    ]
+  },
+  "2602.21220v1": {
+    "arxiv_id": "2602.21220v1",
+    "title": "Field-Theoretic Memory for AI Agents: Continuous Dynamics for Context Preservation",
+    "authors": "Subhadip Mitra",
+    "published": "2026-01-31",
+    "abstract": "We present a memory system for AI agents that treats stored information as continuous fields governed by partial differential equations rather than discrete entries in a database. The approach draws from classical field theory: memories diffuse through semantic space, decay thermodynamically based on importance, and interact through field coupling in multi-agent scenarios. We evaluate the system on two established long-context benchmarks: LoCoMo (ACL 2024) with 300-turn conversations across 35 s",
+    "pdf_url": "https://arxiv.org/pdf/2602.21220v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  "2603.04814v1": {
+    "arxiv_id": "2603.04814v1",
+    "title": "Beyond the Context Window: A Cost-Performance Analysis of Fact-Based Memory vs. Long-Context LLMs for Persistent Agents",
+    "authors": "Natchanon Pollertlam, Witchayut Kornsuwannawit",
+    "published": "2026-03-05",
+    "abstract": "Persistent conversational AI systems face a choice between passing full conversation histories to a long-context large language model (LLM) and maintaining a dedicated memory system that extracts and retrieves structured facts. We compare a fact-based memory system built on the Mem0 framework against long-context LLM inference on three memory-centric benchmarks - LongMemEval, LoCoMo, and PersonaMemv2 - and evaluate both architectures on accuracy and cumulative API cost. Long-context GPT-5-mini a",
+    "pdf_url": "https://arxiv.org/pdf/2603.04814v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2604.01599v1": {
+    "arxiv_id": "2604.01599v1",
+    "title": "ByteRover: Agent-Native Memory Through LLM-Curated Hierarchical Context",
+    "authors": "Andy Nguyen, Danh Doan, Hoang Pham, Bao Ha, Dat Pham",
+    "published": "2026-04-02",
+    "abstract": "Memory-Augmented Generation (MAG) extends large language models with external memory to support long-context reasoning, but existing approaches universally treat memory as an external service that agents call into, delegating storage to separate pipelines of chunking, embedding, and graph extraction. This architectural separation means the system that stores knowledge does not understand it, leading to semantic drift between what the agent intended to remember and what the pipeline actually capt",
+    "pdf_url": "https://arxiv.org/pdf/2604.01599v1",
+    "categories": [
+      "cs.AI"
+    ]
+  },
+  "2512.12818v1": {
+    "arxiv_id": "2512.12818v1",
+    "title": "Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects",
+    "authors": "Chris Latimer, Nicoló Boschi, Andrew Neeser, Chris Bartholomew, Gaurav Srivastava",
+    "published": "2025-12-14",
+    "abstract": "Agent memory has been touted as a dimension of growth for LLM-based applications, enabling agents that can accumulate experience, adapt across sessions, and move beyond single-shot question answering. The current generation of agent memory systems treats memory as an external layer that extracts salient snippets from conversations, stores them in vector or graph-based stores, and retrieves top-k items into the prompt of an otherwise stateless model. While these systems improve personalization an",
+    "pdf_url": "https://arxiv.org/pdf/2512.12818v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR",
+      "cs.LG"
+    ]
+  },
+  "2505.03320v2": {
+    "arxiv_id": "2505.03320v2",
+    "title": "Recall with Reasoning: Chain-of-Thought Distillation for Mamba's Long-Context Memory and Extrapolation",
+    "authors": "Junyu Ma, Tianqing Fang, Zhisong Zhang, Hongming Zhang, Haitao Mi",
+    "published": "2025-05-06",
+    "abstract": "Mamba's theoretical infinite-context potential is limited in practice when sequences far exceed training lengths. This work explores unlocking Mamba's long-context memory ability by a simple-yet-effective method, Recall with Reasoning (RwR), by distilling chain-of-thought (CoT) summarization from a teacher model. Specifically, RwR prepends these summarization as CoT prompts during fine-tuning, teaching Mamba to actively recall and reason over long contexts. Experiments on LONGMEMEVAL and HELMET ",
+    "pdf_url": "https://arxiv.org/pdf/2505.03320v2",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2601.11585v1": {
+    "arxiv_id": "2601.11585v1",
+    "title": "Entropic Context Shaping: Information-Theoretic Filtering for Context-Aware LLM Agents",
+    "authors": "Hyunjun Kim",
+    "published": "2026-01-01",
+    "abstract": "Context engineering for large language model (LLM) agents requires distinguishing pragmatically useful information from misleading distractors. We introduce Entropic Context Shaping (ECS), an information-theoretic framework that measures context utility via the shift in the model's answer distribution toward the correct answer. Unlike lexical similarity methods that rely on word overlap, ECS captures pragmatic utility -- whether a passage actually helps answer the question. We formalize utility ",
+    "pdf_url": "https://arxiv.org/pdf/2601.11585v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2509.21212v1": {
+    "arxiv_id": "2509.21212v1",
+    "title": "SGMem: Sentence Graph Memory for Long-Term Conversational Agents",
+    "authors": "Yaxiong Wu, Yongyue Zhang, Sheng Liang, Yong Liu",
+    "published": "2025-09-25",
+    "abstract": "Long-term conversational agents require effective memory management to handle dialogue histories that exceed the context window of large language models (LLMs). Existing methods based on fact extraction or summarization reduce redundancy but struggle to organize and retrieve relevant information across different granularities of dialogue and generated memory. We introduce SGMem (Sentence Graph Memory), which represents dialogue as sentence-level graphs within chunked units, capturing association",
+    "pdf_url": "https://arxiv.org/pdf/2509.21212v1",
+    "categories": [
+      "cs.CL",
+      "cs.IR"
+    ]
+  },
+  "2602.13594v1": {
+    "arxiv_id": "2602.13594v1",
+    "title": "Hippocampus: An Efficient and Scalable Memory Module for Agentic AI",
+    "authors": "Yi Li, Lianjie Cao, Faraz Ahmed, Puneet Sharma, Bingzhe Li",
+    "published": "2026-02-14",
+    "abstract": "Agentic AI require persistent memory to store user-specific histories beyond the limited context window of LLMs. Existing memory systems use dense vector databases or knowledge-graph traversal (or hybrid), incurring high retrieval latency and poor storage scalability. We introduce Hippocampus, an agentic memory management system that uses compact binary signatures for semantic search and lossless token-ID streams for exact content reconstruction. Its core is a Dynamic Wavelet Matrix (DWM) that c",
+    "pdf_url": "https://arxiv.org/pdf/2602.13594v1",
+    "categories": [
+      "cs.AI"
+    ]
+  },
+  "2601.03236v1": {
+    "arxiv_id": "2601.03236v1",
+    "title": "MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents",
+    "authors": "Dongming Jiang, Yi Li, Guanpeng Li, Bingzhe Li",
+    "published": "2026-01-06",
+    "abstract": "Memory-Augmented Generation (MAG) extends Large Language Models with external memory to support long-context reasoning, but existing approaches largely rely on semantic similarity over monolithic memory stores, entangling temporal, causal, and entity information. This design limits interpretability and alignment between query intent and retrieved evidence, leading to suboptimal reasoning accuracy. In this paper, we propose MAGMA, a multi-graph agentic memory architecture that represents each mem",
+    "pdf_url": "https://arxiv.org/pdf/2601.03236v1",
+    "categories": [
+      "cs.AI"
+    ]
+  },
+  "2410.10813": {
+    "arxiv_id": "2410.10813",
+    "title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+    "authors": "Di Wu, Hongwei Wang, Wenhao Yu, Yuwei Zhang, Kai-Wei Chang",
+    "published": "2024-10-14",
+    "abstract": "Recent large language model (LLM)-driven chat assistant systems have integrated memory components to track user-assistant chat histories, enabling more accurate and personalized responses. However, their long-term memory capabilities in sustained interactions remain underexplored. We introduce LongMemEval, a comprehensive benchmark designed to evaluate five core long-term memory abilities of chat assistants: information extraction, multi-session reasoning, temporal reasoning, knowledge updates, and abstention. With 500 meticulously curated questions embedded within freely scalable user-assistant chat histories, LongMemEval presents a significant challenge to existing long-term memory systems, with commercial chat assistants and long-context LLMs showing a 30% accuracy drop on memorizing information across sustained interactions. We then present a unified framework that breaks down the long-term memory design into three stages: indexing, retrieval, and reading. Built upon key experimental insights, we propose several memory design optimizations including session decomposition for value granularity, fact-augmented key expansion for indexing, and time-aware query expansion for refining the search scope. Extensive experiments show that these optimizations greatly improve both memory recall and downstream question answering on LongMemEval. Overall, our study provides valuable resources and guidance for advancing the long-term memory capabilities of LLM-based chat assistants, paving the way toward more personalized and reliable conversational AI. Our benchmark and code are publicly available at https://github.com/xiaowu0162/LongMemEval.",
+    "pdf_url": "https://arxiv.org/pdf/2410.10813v2",
+    "local_pdf": "/data/code/python/basic-knowledge/agent/multi-agent/papers/LongMemEval_Benchmarking_Chat_Assistants_on_Long-Term_Interactive_Memory.pdf",
+    "local_filename": "LongMemEval_Benchmarking_Chat_Assistants_on_Long-Term_Interactive_Memory.pdf"
+  },
+  "2508.01263v1": {
+    "arxiv_id": "2508.01263v1",
+    "title": "Bridging LLMs and Symbolic Reasoning in Educational QA Systems: Insights from the XAI Challenge at IJCNN 2025",
+    "authors": "Long S. T. Nguyen, Khang H. N. Vo, Thu H. A. Nguyen, Tuan C. Bui, Duc Q. Nguyen",
+    "published": "2025-08-02",
+    "abstract": "The growing integration of Artificial Intelligence (AI) into education has intensified the need for transparency and interpretability. While hackathons have long served as agile environments for rapid AI prototyping, few have directly addressed eXplainable AI (XAI) in real-world educational contexts. This paper presents a comprehensive analysis of the XAI Challenge 2025, a hackathon-style competition jointly organized by Ho Chi Minh City University of Technology (HCMUT) and the International Wor",
+    "pdf_url": "https://arxiv.org/pdf/2508.01263v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LO"
+    ]
+  },
+  "2510.06426v1": {
+    "arxiv_id": "2510.06426v1",
+    "title": "FinLFQA: Evaluating Attributed Text Generation of LLMs in Financial Long-Form Question Answering",
+    "authors": "Yitao Long, Tiansheng Hu, Yilun Zhao, Arman Cohan, Chen Zhao",
+    "published": "2025-10-07",
+    "abstract": "Large Language Models (LLMs) frequently hallucinate to long-form questions, producing plausible yet factually incorrect answers. A common mitigation strategy is to provide attribution to LLM outputs. However, existing benchmarks primarily focus on simple attribution that retrieves supporting textual evidence as references. We argue that in real-world scenarios such as financial applications, attribution goes beyond reference retrieval. We introduce FinLFQA, a benchmark designed to evaluate the a",
+    "pdf_url": "https://arxiv.org/pdf/2510.06426v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2508.18904v1": {
+    "arxiv_id": "2508.18904v1",
+    "title": "Event-Enriched Image Analysis Grand Challenge at ACM Multimedia 2025",
+    "authors": "Thien-Phuc Tran, Minh-Quang Nguyen, Minh-Triet Tran, Tam V. Nguyen, Trong-Le Do",
+    "published": "2025-08-26",
+    "abstract": "The Event-Enriched Image Analysis (EVENTA) Grand Challenge, hosted at ACM Multimedia 2025, introduces the first large-scale benchmark for event-level multimodal understanding. Traditional captioning and retrieval tasks largely focus on surface-level recognition of people, objects, and scenes, often overlooking the contextual and semantic dimensions that define real-world events. EVENTA addresses this gap by integrating contextual, temporal, and semantic information to capture the who, when, wher",
+    "pdf_url": "https://arxiv.org/pdf/2508.18904v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  "2509.11402v1": {
+    "arxiv_id": "2509.11402v1",
+    "title": "TRUST 2025: SCRITA and RTSS @ RO-MAN 2025",
+    "authors": "Alessandra Rossi, Patrick Holthaus, Gabriella Lakatos, Sílvia Moros, Ali Fallahi",
+    "published": "2025-09-14",
+    "abstract": "The TRUST workshop is the result of a collaboration between two established workshops in the field of Human-Robot Interaction: SCRITA (Trust, Acceptance and Social Cues in Human-Robot Interaction) and RTSS (Robot Trust for Symbiotic Societies). This joint initiative brings together the complementary goals of these workshops to advance research on trust from both the human and robot perspectives.\n  Website: https://scrita.herts.ac.uk/2025/",
+    "pdf_url": "https://arxiv.org/pdf/2509.11402v1",
+    "categories": [
+      "cs.RO"
+    ]
+  },
+  "2507.22171v3": {
+    "arxiv_id": "2507.22171v3",
+    "title": "Enhancing Jailbreak Attacks on LLMs via Persona Prompts",
+    "authors": "Zheng Zhang, Peilin Zhao, Deheng Ye, Hao Wang",
+    "published": "2025-07-28",
+    "abstract": "Jailbreak attacks aim to exploit large language models (LLMs) by inducing them to generate harmful content, thereby revealing their vulnerabilities. Understanding and addressing these attacks is crucial for advancing the field of LLM safety. Previous jailbreak approaches have mainly focused on direct manipulations of harmful intent, with limited attention to the impact of persona prompts. In this study, we systematically explore the efficacy of persona prompts in compromising LLM defenses. We pr",
+    "pdf_url": "https://arxiv.org/pdf/2507.22171v3",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  "2512.00461v1": {
+    "arxiv_id": "2512.00461v1",
+    "title": "Whose Personae? Synthetic Persona Experiments in LLM Research and Pathways to Transparency",
+    "authors": "Jan Batzner, Volker Stocker, Bingjun Tang, Anusha Natarajan, Qinhao Chen",
+    "published": "2025-11-29",
+    "abstract": "Synthetic personae experiments have become a prominent method in Large Language Model alignment research, yet the representativeness and ecological validity of these personae vary considerably between studies. Through a review of 63 peer-reviewed studies published between 2023 and 2025 in leading NLP and AI venues, we reveal a critical gap: task and population of interest are often underspecified in persona-based experiments, despite personalization being fundamentally dependent on these criteri",
+    "pdf_url": "https://arxiv.org/pdf/2512.00461v1",
+    "categories": [
+      "cs.CY",
+      "cs.CL"
+    ]
+  },
+  "2512.06688v1": {
+    "arxiv_id": "2512.06688v1",
+    "title": "PersonaMem-v2: Towards Personalized Intelligence via Learning Implicit User Personas and Agentic Memory",
+    "authors": "Bowen Jiang, Yuan Yuan, Maohao Shen, Zhuoqun Hao, Zhangchen Xu",
+    "published": "2025-12-07",
+    "abstract": "Personalization is one of the next milestones in advancing AI capability and alignment. We introduce PersonaMem-v2, the state-of-the-art dataset for LLM personalization that simulates 1,000 realistic user-chatbot interactions on 300+ scenarios, 20,000+ user preferences, and 128k-token context windows, where most user preferences are implicitly revealed to reflect real-world interactions. Using this data, we investigate how reinforcement fine-tuning enables a model to improve its long-context rea",
+    "pdf_url": "https://arxiv.org/pdf/2512.06688v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2506.19352v1": {
+    "arxiv_id": "2506.19352v1",
+    "title": "Spotting Out-of-Character Behavior: Atomic-Level Evaluation of Persona Fidelity in Open-Ended Generation",
+    "authors": "Jisu Shin, Juhyun Oh, Eunsu Kim, Hoyun Song, Alice Oh",
+    "published": "2025-06-24",
+    "abstract": "Ensuring persona fidelity in large language models (LLMs) is essential for maintaining coherent and engaging human-AI interactions. However, LLMs often exhibit Out-of-Character (OOC) behavior, where generated responses deviate from an assigned persona, leading to inconsistencies that affect model reliability. Existing evaluation methods typically assign single scores to entire responses, struggling to capture subtle persona misalignment, particularly in long-form text generation. To address this",
+    "pdf_url": "https://arxiv.org/pdf/2506.19352v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.HC"
+    ]
+  },
+  "2511.01720v1": {
+    "arxiv_id": "2511.01720v1",
+    "title": "Efficient Tool-Calling Multi-Expert NPC Agent for Commonsense Persona-Grounded Dialogue",
+    "authors": "Mahammad Nuriyev",
+    "published": "2025-11-03",
+    "abstract": "We present a multi-expert system for creating Non-Player Characters (NPCs) capable of both natural dialogue and contextual action execution in interactive environments. Using Qwen3 as the base model and Low-Rank Adaptation (LoRA) adapters, we instantiate three specialists: tool calling, tool-response interpretation, and direct dialogue. Our system comfortably meets the computational efficiency requirements, delivering fast responses and maintaining modest resource usage on L40S GPUs. In the Comm",
+    "pdf_url": "https://arxiv.org/pdf/2511.01720v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2305.10250": {
+    "arxiv_id": "2305.10250",
+    "title": "MemoryBank: Enhancing Large Language Models with Long-Term Memory",
+    "authors": "Wanjun Zhong, Lianghong Guo, Qiqi Gao, He Ye, Yanlin Wang",
+    "published": "2023-05-17",
+    "abstract": "Revolutionary advancements in Large Language Models have drastically reshaped our interactions with artificial intelligence systems. Despite this, a notable hindrance remains-the deficiency of a long-term memory mechanism within these models. This shortfall becomes increasingly evident in situations demanding sustained interaction, such as personal companion systems and psychological counseling. Therefore, we propose MemoryBank, a novel memory mechanism tailored for LLMs. MemoryBank enables the models to summon relevant memories, continually evolve through continuous memory updates, comprehend, and adapt to a user personality by synthesizing information from past interactions. To mimic anthropomorphic behaviors and selectively preserve memory, MemoryBank incorporates a memory updating mechanism, inspired by the Ebbinghaus Forgetting Curve theory, which permits the AI to forget and reinforce memory based on time elapsed and the relative significance of the memory, thereby offering a human-like memory mechanism. MemoryBank is versatile in accommodating both closed-source models like ChatGPT and open-source models like ChatGLM. We exemplify application of MemoryBank through the creation of an LLM-based chatbot named SiliconFriend in a long-term AI Companion scenario. Further tuned with psychological dialogs, SiliconFriend displays heightened empathy in its interactions. Experiment involves both qualitative analysis with real-world user dialogs and quantitative analysis with simulated dialogs. In the latter, ChatGPT acts as users with diverse characteristics and generates long-term dialog contexts covering a wide array of topics. The results of our analysis reveal that SiliconFriend, equipped with MemoryBank, exhibits a strong capability for long-term companionship as it can provide emphatic response, recall relevant memories and understand user personality.",
+    "pdf_url": "https://arxiv.org/pdf/2305.10250v3",
+    "local_pdf": "/data/code/python/basic-knowledge/agent/multi-agent/papers/MemoryBank_Enhancing_Large_Language_Models_with_Long-Term_Memory.pdf",
+    "local_filename": "MemoryBank_Enhancing_Large_Language_Models_with_Long-Term_Memory.pdf"
+  },
+  "2502.00592": {
+    "arxiv_id": "2502.00592",
+    "title": "M+: Extending MemoryLLM with Scalable Long-Term Memory",
+    "authors": "Yu Wang, Dmitry Krotov, Yuanzhe Hu, Yifan Gao, Wangchunshu Zhou",
+    "published": "2025-02-01",
+    "abstract": "Equipping large language models (LLMs) with latent-space memory has attracted increasing attention as they can extend the context window of existing language models. However, retaining information from the distant past remains a challenge. For example, MemoryLLM (Wang et al., 2024a), as a representative work with latent-space memory, compresses past information into hidden states across all layers, forming a memory pool of 1B parameters. While effective for sequence lengths up to 16k tokens, it struggles to retain knowledge beyond 20k tokens. In this work, we address this limitation by introducing M+, a memory-augmented model based on MemoryLLM that significantly enhances long-term information retention. M+ integrates a long-term memory mechanism with a co-trained retriever, dynamically retrieving relevant information during text generation. We evaluate M+ on diverse benchmarks, including long-context understanding and knowledge retention tasks. Experimental results show that M+ significantly outperforms MemoryLLM and recent strong baselines, extending knowledge retention from under 20k to over 160k tokens with similar GPU memory overhead. We open-source our code at https://github.com/wangyu-ustc/MemoryLLM",
+    "pdf_url": "https://arxiv.org/pdf/2502.00592v2",
+    "local_pdf": "/data/code/python/basic-knowledge/agent/multi-agent/papers/M+_Extending_MemoryLLM_with_Scalable_Long-Term_Memory.pdf",
+    "local_filename": "M+_Extending_MemoryLLM_with_Scalable_Long-Term_Memory.pdf"
+  },
+  "2601.04745": {
+    "arxiv_id": "2601.04745",
+    "title": "KnowMe-Bench: Benchmarking Person Understanding for Lifelong Digital Companions",
+    "authors": "Tingyu Wu, Zhisheng Chen, Ziyan Weng, Shuhe Wang, Chenglong Li",
+    "published": "2026-01-08",
+    "abstract": "Existing long-horizon memory benchmarks mostly use multi-turn dialogues or synthetic user histories, which makes retrieval performance an imperfect proxy for person understanding. We present \\BenchName, a publicly releasable benchmark built from long-form autobiographical narratives, where actions, context, and inner thoughts provide dense evidence for inferring stable motivations and decision principles. \\BenchName~reconstructs each narrative into a flashback-aware, time-anchored stream and evaluates models with evidence-linked questions spanning factual recall, subjective state attribution, and principle-level reasoning. Across diverse narrative sources, retrieval-augmented systems mainly improve factual accuracy, while errors persist on temporally grounded explanations and higher-level inferences, highlighting the need for memory mechanisms beyond retrieval. Our data is in \\href{KnowMeBench}{https://github.com/QuantaAlpha/KnowMeBench}.",
+    "pdf_url": "https://arxiv.org/pdf/2601.04745v1",
+    "local_pdf": "/data/code/python/basic-knowledge/agent/multi-agent/papers/KnowMe-Bench_Benchmarking_Person_Understanding_for_Lifelong_Digital_Companions.pdf",
+    "local_filename": "KnowMe-Bench_Benchmarking_Person_Understanding_for_Lifelong_Digital_Companions.pdf"
+  },
+  "2402.17753": {
+    "arxiv_id": "2402.17753",
+    "title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+    "authors": "Adyasha Maharana, Dong-Ho Lee, Sergey Tulyakov, Mohit Bansal, Francesco Barbieri",
+    "published": "2024-02-27",
+    "abstract": "Existing works on long-term open-domain dialogues focus on evaluating model responses within contexts spanning no more than five chat sessions. Despite advancements in long-context large language models (LLMs) and retrieval augmented generation (RAG) techniques, their efficacy in very long-term dialogues remains unexplored. To address this research gap, we introduce a machine-human pipeline to generate high-quality, very long-term dialogues by leveraging LLM-based agent architectures and grounding their dialogues on personas and temporal event graphs. Moreover, we equip each agent with the capability of sharing and reacting to images. The generated conversations are verified and edited by human annotators for long-range consistency and grounding to the event graphs. Using this pipeline, we collect LoCoMo, a dataset of very long-term conversations, each encompassing 300 turns and 9K tokens on avg., over up to 35 sessions. Based on LoCoMo, we present a comprehensive evaluation benchmark to measure long-term memory in models, encompassing question answering, event summarization, and multi-modal dialogue generation tasks. Our experimental results indicate that LLMs exhibit challenges in understanding lengthy conversations and comprehending long-range temporal and causal dynamics within dialogues. Employing strategies like long-context LLMs or RAG can offer improvements but these models still substantially lag behind human performance.",
+    "pdf_url": "https://arxiv.org/pdf/2402.17753v1",
+    "local_pdf": "/data/code/python/basic-knowledge/agent/multi-agent/papers/Evaluating_Very_Long-Term_Conversational_Memory_of_LLM_Agents.pdf",
+    "local_filename": "Evaluating_Very_Long-Term_Conversational_Memory_of_LLM_Agents.pdf"
+  },
+  "2601.03515": {
+    "arxiv_id": "2601.03515",
+    "title": "Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents",
+    "authors": "Yuanchen Bei, Tianxin Wei, Xuying Ning, Yanjun Zhao, Zhining Liu",
+    "published": "2026-01-07",
+    "abstract": "Long-term memory is a critical capability for multimodal large language model (MLLM) agents, particularly in conversational settings where information accumulates and evolves over time. However, existing benchmarks either evaluate multi-session memory in text-only conversations or assess multimodal understanding within localized contexts, failing to evaluate how multimodal memory is preserved, organized, and evolved across long-term conversational trajectories. Thus, we introduce Mem-Gallery, a new benchmark for evaluating multimodal long-term conversational memory in MLLM agents. Mem-Gallery features high-quality multi-session conversations grounded in both visual and textual information, with long interaction horizons and rich multimodal dependencies. Building on this dataset, we propose a systematic evaluation framework that assesses key memory capabilities along three functional dimensions: memory extraction and test-time adaptation, memory reasoning, and memory knowledge management. Extensive benchmarking across thirteen memory systems reveals several key findings, highlighting the necessity of explicit multimodal information retention and memory organization, the persistent limitations in memory reasoning and knowledge management, as well as the efficiency bottleneck of current models.",
+    "pdf_url": "https://arxiv.org/pdf/2601.03515v1",
+    "local_pdf": "/data/code/python/basic-knowledge/agent/multi-agent/papers/Mem-Gallery_Benchmarking_Multimodal_Long-Term_Conversational_Memory_for_MLLM_Age.pdf",
+    "local_filename": "Mem-Gallery_Benchmarking_Multimodal_Long-Term_Conversational_Memory_for_MLLM_Age.pdf"
+  },
+  "1912.02145v1": {
+    "arxiv_id": "1912.02145v1",
+    "title": "An Exploration of Data Augmentation and Sampling Techniques for Domain-Agnostic Question Answering",
+    "authors": "Shayne Longpre, Yi Lu, Zhucheng Tu, Chris DuBois",
+    "published": "2019-12-04",
+    "abstract": "To produce a domain-agnostic question answering model for the Machine Reading Question Answering (MRQA) 2019 Shared Task, we investigate the relative benefits of large pre-trained language models, various data sampling strategies, as well as query and context paraphrases generated by back-translation. We find a simple negative sampling technique to be particularly effective, even though it is typically used for datasets that include unanswerable questions, such as SQuAD 2.0. When applied in conj",
+    "pdf_url": "https://arxiv.org/pdf/1912.02145v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2402.16288v1": {
+    "arxiv_id": "2402.16288v1",
+    "title": "PerLTQA: A Personal Long-Term Memory Dataset for Memory Classification, Retrieval, and Synthesis in Question Answering",
+    "authors": "Yiming Du, Hongru Wang, Zhengyi Zhao, Bin Liang, Baojun Wang",
+    "published": "2024-02-26",
+    "abstract": "Long-term memory plays a critical role in personal interaction, considering long-term memory can better leverage world knowledge, historical information, and preferences in dialogues. Our research introduces PerLTQA, an innovative QA dataset that combines semantic and episodic memories, including world knowledge, profiles, social relationships, events, and dialogues. This dataset is collected to investigate the use of personalized memories, focusing on social interactions and events in the QA ta",
+    "pdf_url": "https://arxiv.org/pdf/2402.16288v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR"
+    ]
+  },
+  "2409.18969v2": {
+    "arxiv_id": "2409.18969v2",
+    "title": "Integrating SPARQL and LLMs for Question Answering over Scholarly Data Sources",
+    "authors": "Fomubad Borista Fondi, Azanzi Jiomekong Fidel, Gaoussou Camara",
+    "published": "2024-09-11",
+    "abstract": "The Scholarly Hybrid Question Answering over Linked Data (QALD) Challenge at the International Semantic Web Conference (ISWC) 2024 focuses on Question Answering (QA) over diverse scholarly sources: DBLP, SemOpenAlex, and Wikipedia-based texts. This paper describes a methodology that combines SPARQL queries, divide and conquer algorithms, and a pre-trained extractive question answering model. It starts with SPARQL queries to gather data, then applies divide and conquer to manage various question ",
+    "pdf_url": "https://arxiv.org/pdf/2409.18969v2",
+    "categories": [
+      "cs.IR",
+      "cs.AI"
+    ]
+  },
+  "2108.12898v1": {
+    "arxiv_id": "2108.12898v1",
+    "title": "Generating Answer Candidates for Quizzes and Answer-Aware Question Generators",
+    "authors": "Kristiyan Vachev, Momchil Hardalov, Georgi Karadzhov, Georgi Georgiev, Ivan Koychev",
+    "published": "2021-08-29",
+    "abstract": "In education, open-ended quiz questions have become an important tool for assessing the knowledge of students. Yet, manually preparing such questions is a tedious task, and thus automatic question generation has been proposed as a possible alternative. So far, the vast majority of research has focused on generating the question text, relying on question answering datasets with readily picked answers, and the problem of how to come up with answer candidates in the first place has been largely ign",
+    "pdf_url": "https://arxiv.org/pdf/2108.12898v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CY",
+      "cs.IR",
+      "cs.LG"
+    ]
+  },
+  "1911.11403v1": {
+    "arxiv_id": "1911.11403v1",
+    "title": "SemEval-2015 Task 3: Answer Selection in Community Question Answering",
+    "authors": "Preslav Nakov, Lluís Màrquez, Walid Magdy, Alessandro Moschitti, James Glass",
+    "published": "2019-11-26",
+    "abstract": "Community Question Answering (cQA) provides new interesting research directions to the traditional Question Answering (QA) field, e.g., the exploitation of the interaction between users and the structure of related posts. In this context, we organized SemEval-2015 Task 3 on \"Answer Selection in cQA\", which included two subtasks: (a) classifying answers as \"good\", \"bad\", or \"potentially relevant\" with respect to the question, and (b) answering a YES/NO question with \"yes\", \"no\", or \"unsure\", base",
+    "pdf_url": "https://arxiv.org/pdf/1911.11403v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR"
+    ]
+  },
+  "1803.07724v1": {
+    "arxiv_id": "1803.07724v1",
+    "title": "Attention on Attention: Architectures for Visual Question Answering (VQA)",
+    "authors": "Jasdeep Singh, Vincent Ying, Alex Nutkiewicz",
+    "published": "2018-03-21",
+    "abstract": "Visual Question Answering (VQA) is an increasingly popular topic in deep learning research, requiring coordination of natural language processing and computer vision modules into a single architecture. We build upon the model which placed first in the VQA Challenge by developing thirteen new attention mechanisms and introducing a simplified classifier. We performed 300 GPU hours of extensive hyperparameter and architecture searches and were able to achieve an evaluation score of 64.78%, outperfo",
+    "pdf_url": "https://arxiv.org/pdf/1803.07724v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  "2105.14013v1": {
+    "arxiv_id": "2105.14013v1",
+    "title": "Feature extraction and evaluation for BioMedical Question Answering",
+    "authors": "Ankit Shah, Srishti Singh, Shih-Yen Tao",
+    "published": "2021-05-28",
+    "abstract": "In this paper, we present our work on the BioASQ pipeline. The goal is to answer four types of questions: summary, yes/no, factoids, and list. Our goal is to empirically evaluate different modules involved: the feature extractor and the sentence selection block. We used our pipeline to test the effectiveness of each module for all kinds of question types and perform error analysis. We defined metrics that are useful for future research related to the BioASQ pipeline critical to improve the perfo",
+    "pdf_url": "https://arxiv.org/pdf/2105.14013v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  "2407.04255v1": {
+    "arxiv_id": "2407.04255v1",
+    "title": "Second Place Solution of WSDM2023 Toloka Visual Question Answering Challenge",
+    "authors": "Xiangyu Wu, Zhouyang Chi, Yang Yang, Jianfeng Lu",
+    "published": "2024-07-05",
+    "abstract": "In this paper, we present our solution for the WSDM2023 Toloka Visual Question Answering Challenge. Inspired by the application of multimodal pre-trained models to various downstream tasks(e.g., visual question answering, visual grounding, and cross-modal retrieval), we approached this competition as a visual grounding task, where the input is an image and a question, guiding the model to answer the question and display the answer as a bounding box on the image. We designed a three-stage solutio",
+    "pdf_url": "https://arxiv.org/pdf/2407.04255v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  "2405.01583v1": {
+    "arxiv_id": "2405.01583v1",
+    "title": "MediFact at MEDIQA-M3G 2024: Medical Question Answering in Dermatology with Multimodal Learning",
+    "authors": "Nadia Saeed",
+    "published": "2024-04-27",
+    "abstract": "The MEDIQA-M3G 2024 challenge necessitates novel solutions for Multilingual & Multimodal Medical Answer Generation in dermatology (wai Yim et al., 2024a). This paper addresses the limitations of traditional methods by proposing a weakly supervised learning approach for open-ended medical question-answering (QA). Our system leverages readily available MEDIQA-M3G images via a VGG16-CNN-SVM model, enabling multilingual (English, Chinese, Spanish) learning of informative skin condition representatio",
+    "pdf_url": "https://arxiv.org/pdf/2405.01583v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  "1707.01961v1": {
+    "arxiv_id": "1707.01961v1",
+    "title": "Long-Term Memory Networks for Question Answering",
+    "authors": "Fenglong Ma, Radha Chitta, Saurabh Kataria, Jing Zhou, Palghat Ramesh",
+    "published": "2017-07-06",
+    "abstract": "Question answering is an important and difficult task in the natural language processing domain, because many basic natural language processing tasks can be cast into a question answering task. Several deep neural network architectures have been developed recently, which employ memory and inference components to memorize and reason over text information, and generate answers to questions. However, a major drawback of many such models is that they are capable of only generating single-word answer",
+    "pdf_url": "https://arxiv.org/pdf/1707.01961v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  "2504.14225": {
+    "arxiv_id": "2504.14225",
+    "title": "Know Me, Respond to Me: Benchmarking LLMs for Dynamic User Profiling and Personalized Responses at Scale",
+    "authors": "Bowen Jiang, Zhuoqun Hao, Young-Min Cho, Bryan Li, Yuan Yuan",
+    "published": "2025-04-19",
+    "abstract": "Large Language Models (LLMs) have emerged as personalized assistants for users across a wide range of tasks -- from offering writing support to delivering tailored recommendations or consultations. Over time, the interaction history between a user and an LLM can provide extensive information about an individual's traits and preferences. However, open questions remain on how well LLMs today can effectively leverage such history to (1) internalize the user's inherent traits and preferences, (2) track how the user profiling and preferences evolve over time, and (3) generate personalized responses accordingly in new scenarios.\n  In this work, we introduce the PERSONAMEM benchmark. PERSONAMEM features curated user profiles with over 180 simulated user-LLM interaction histories, each containing up to 60 sessions of multi-turn conversations across 15 real-world tasks that require personalization. Given an in-situ user query, i.e. query issued by the user from the first-person perspective, we evaluate LLM chatbots' ability to identify the most suitable response according to the current state of the user's profile. We observe that current LLMs still struggle to recognize the dynamic evolution in users' profiles over time through direct prompting approaches. As a consequence, LLMs often fail to deliver responses that align with users' current situations and preferences, with frontier models such as GPT-4.1, o4-mini, GPT-4.5, o1, or Gemini-2.0 achieving only around 50% overall accuracy, suggesting room for improvement. We hope that PERSONAMEM, along with the user profile and conversation simulation pipeline, can facilitate future research in the development of truly user-aware chatbots. Code and data are available at github.com/bowen-upenn/PersonaMem.",
+    "pdf_url": "https://arxiv.org/pdf/2504.14225v2",
+    "local_pdf": "/data/code/python/basic-knowledge/agent/multi-agent/papers/Know_Me,_Respond_to_Me_Benchmarking_LLMs_for_Dynamic_User_Profiling_and_Personal.pdf",
+    "local_filename": "Know_Me,_Respond_to_Me_Benchmarking_LLMs_for_Dynamic_User_Profiling_and_Personal.pdf"
+  }
+}

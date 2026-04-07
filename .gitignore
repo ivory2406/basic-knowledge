@@ -1,0 +1,9 @@
+# 包含密码/密钥的配置文件
+agent/config.toml
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 日志文件
+*.log
